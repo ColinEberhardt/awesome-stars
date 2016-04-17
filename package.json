@@ -1,0 +1,28 @@
+{
+  "name": "awesome-stars",
+  "version": "1.0.0",
+  "description": "Adds star counts to awesome lists",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ColinEberhardt/awesome-stars.git"
+  },
+  "author": "ColinEberhardt",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ColinEberhardt/awesome-stars/issues"
+  },
+  "homepage": "https://github.com/ColinEberhardt/awesome-stars#readme",
+  "dependencies": {
+    "commander": "^2.9.0",
+    "github": "^0.2.4",
+    "progress": "^1.1.8",
+    "q": "^1.4.1",
+    "request-promise": "^2.0.1",
+    "string-replace-async": "^1.2.0",
+    "throat": "^2.0.2"
+  }
+}
