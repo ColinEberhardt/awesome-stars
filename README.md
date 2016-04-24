@@ -1,13 +1,19 @@
 #Awesome Stars!
 
-A tool for adding star counts to awesome lists.
+A tool for adding star counts, and updating redirected URLs, for awesome lists.
 
-## Example
+## Usage
 
-You can run this tool on the command link:
+Install from npm:
 
 ```
-$ node cli.js -h
+$ npm install -g awesome-stars
+```
+
+Run this tool on the command link:
+
+```
+$ awesome-stars -h
 
   Usage: cli [options]
 
@@ -25,7 +31,7 @@ $ node cli.js -h
 Here's an example usage where stars are added, and links with >5,000 stars are emboldened:
 
 ```
-$ node cli.js -i README.md -o README_STARRED.md -u ColinEberhardt -p ##GITHUB_TOKEN## -b 5000
+$ awesome-stars -i README.md -o README_STARRED.md -u ColinEberhardt -p ##GITHUB_TOKEN## -b 5000
 ```
 
 Given the following source:

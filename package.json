@@ -6,6 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "bin": {
+    "awesome-stars": "./bin/awesome-stars"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ColinEberhardt/awesome-stars.git"

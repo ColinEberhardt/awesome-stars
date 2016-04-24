@@ -17,7 +17,7 @@ program
   .parse(process.argv);
 
 if (!program.infile || !program.outfile || !program.username || !program.password) {
-  console.error('All parameters are mandatory');
+  console.error('All parameters are mandatory, try help (-h)');
   process.exit();
 }
 
